@@ -1,16 +1,8 @@
 # navigation_codelab
 
-A new Flutter project.
+Tugas Pembalajaran cara menggunakan navigation dari satu ke screen ke screen lain.
 
-## Getting Started
+**Main.Dart**
+Berisi router dari tiap screen yang ada sehingga lebih mudah untuk digunakan dan juga berisi fungsi untuk berpindah screen menggunakan router.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setiap screen disini memiliki button yang dapat digunakan untuk berpindah dari satu screen ke screen lain melalui drawer dibawah.
