@@ -38,33 +38,7 @@ class _MyNavigationState extends State<MyNavigation> {
     });
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Navigation Example')),
-      drawer: MyDrawer(),
-      body: _children[_currentIndex],
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        onTap: onTabTapped,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'First',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Second',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.school),
-            label: 'Third',
-          ),
-        ],
-      ),
-    );
-  }
-}
+
 
 class MyDrawer extends StatelessWidget {
   @override
